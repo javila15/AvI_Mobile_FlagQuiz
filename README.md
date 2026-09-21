@@ -17,7 +17,7 @@ O **FlagQuiz** é um aplicativo de desafio relâmpago onde o jogador precisa adi
 ## 👥 Integrantes da Equipe
 Este projeto foi desenvolvido por uma equipe de 4 integrantes:
 
-* **Amanda Lima** - GRR: 
+* **Amanda Lima** - GRR: 20245459
 * **Caio Vitor** - GRR: 
 * **Ender Ruiz** - GRR: 
 * **Jhoslaine Avila** - GRR: 20231021
