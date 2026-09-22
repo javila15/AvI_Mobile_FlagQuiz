@@ -24,8 +24,8 @@ class AtividadeQuiz : AppCompatActivity (){
     )
     private lateinit var perguntas: List<Bandeira>
     private var indiceAtual = 0
-    private var pontos = 0
-    private var nomeJogador = ""
+    private var textPontuacaoFinal = 0
+    private var textNomeUsuario = ""
 
     private lateinit var progresso: TextView
     private lateinit var imgbandeira: ImageView
@@ -43,7 +43,7 @@ class AtividadeQuiz : AppCompatActivity (){
         btnResposta = findViewById(R.id.btnResponder)
         feedback = findViewById(R.id.tvFeedback)
 
-        nomeJogador = intent.getStringExtra("nomeJogador") ?: ""
+        textNomeUsuario = intent.getStringExtra("nomeJogador") ?: ""
 
         // Sorteia 5 bandeiras diferentes entre as 15
         perguntas = bandeiras.shuffled().take(5)
@@ -67,7 +67,7 @@ class AtividadeQuiz : AppCompatActivity (){
         btnResposta.isEnabled = false
 
         if (rresposta == correta) {
-            pontos += 20
+            textPontuacaoFinal += 20
             feedback.text = "Correto!"
             feedback.setTextColor(Color.parseColor("#2E7D32"))
         } else {
@@ -92,8 +92,8 @@ class AtividadeQuiz : AppCompatActivity (){
 
     private fun ResultadoFinal() {
         val intent = Intent(this, ResultActivity::class.java)
-        intent.putExtra("nomeJogador", nomeJogador)
-        intent.putExtra("pontuacao", pontos)
+        intent.putExtra("nomeJogador", textNomeUsuario)
+        intent.putExtra("pontuacao", textPontuacaoFinal)
         startActivity(intent)
         finish()
     }
