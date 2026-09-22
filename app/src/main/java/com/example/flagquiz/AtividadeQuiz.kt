@@ -19,26 +19,21 @@ class AtividadeQuiz : AppCompatActivity() {
     )
 
     private val bandeiras = listOf(
-        Bandeira("Alemanha", R.drawable.alemanha),
-        Bandeira("Argentina", R.drawable.argentina),
-        Bandeira("Austrália", R.drawable.australia),
-        Bandeira("Bolívia", R.drawable.bolivia),
-        Bandeira("Brasil", R.drawable.brasil),
-        Bandeira("Canadá", R.drawable.canada),
-        Bandeira("China", R.drawable.china),
-        Bandeira("Espanha", R.drawable.espanha),
-        Bandeira("Estados Unidos", R.drawable.estadosunidos),
-        Bandeira("França", R.drawable.franca),
-        Bandeira("Gana", R.drawable.gana),
-        Bandeira("Índia", R.drawable.india),
-        Bandeira("Itália", R.drawable.italia),
-        Bandeira("Japão", R.drawable.japao),
-        Bandeira("Coreia do Sul", R.drawable.koreasul),
-        Bandeira("México", R.drawable.mexico),
-        Bandeira("Portugal", R.drawable.portugal),
-        Bandeira("Uruguai", R.drawable.uruguai),
-        Bandeira("Vaticano", R.drawable.vaticano),
-        Bandeira("Venezuela", R.drawable.venezuela)
+        Bandeira("Argentina", R.drawable.flag_ar),
+        Bandeira("Australia", R.drawable.flag_au),
+        Bandeira("Brasil", R.drawable.flag_br),
+        Bandeira("Chile", R.drawable.flag_cl),
+        Bandeira("Peru", R.drawable.flag_pe),
+        Bandeira("Mexico", R.drawable.flag_mx),
+        Bandeira("Estados Unidos", R.drawable.flag_us),
+        Bandeira("Canada", R.drawable.flag_ca),
+        Bandeira("França", R.drawable.flag_fr),
+        Bandeira("Alemanha", R.drawable.flag_de),
+        Bandeira("Italia", R.drawable.flag_it),
+        Bandeira("Espanha", R.drawable.flag_es),
+        Bandeira("Portugal", R.drawable.flag_pt),
+        Bandeira("Japão", R.drawable.flag_jp),
+        Bandeira("Colombia", R.drawable.flag_co)
     )
 
     private lateinit var perguntas: List<Bandeira>
