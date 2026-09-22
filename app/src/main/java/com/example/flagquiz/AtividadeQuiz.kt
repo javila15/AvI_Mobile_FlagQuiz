@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import java.text.Normalizer
 import java.util.Locale
 
-class QuizActivity : AppCompatActivity() {
+class AtividadeQuiz : AppCompatActivity() {
 
     private data class Bandeira(
         val nome: String,
