@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            val intent = Intent(this, QuizActivity::class.java).apply {
+            val intent = Intent(this, AtividadeQuiz::class.java).apply {
                 putExtra("nomeJogador", nome)
             }
             startActivity(intent)
