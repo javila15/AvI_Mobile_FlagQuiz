@@ -18,5 +18,5 @@ Este projeto foi desenvolvido por uma equipe de 4 integrantes:
 
 Amanda Lima - GRR: 20245459
 Caio Vitor - GRR:
-Ender Ruiz - GRR:
+Ender Ruiz - GRR: 20250037
 Jhoslaine Avila - GRR: 20231021
